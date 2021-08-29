@@ -25,13 +25,13 @@ public class MaximumProblem {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Enter First Float: ");
-		Float firstFloatNumber = Float.valueOf(scanner.nextFloat());
-		System.out.print("Enter Second Float: ");
-		Float secondFloatNumber = Float.valueOf(scanner.nextFloat());
-		System.out.print("Enter Third Float: ");
-		Float thirdFloatNumber = Float.valueOf(scanner.nextFloat());
-		findMaximum(firstFloatNumber, secondFloatNumber, thirdFloatNumber);
+		System.out.print("Enter First String: ");
+		String firstString = String.valueOf(scanner.nextLine());
+		System.out.print("Enter Second String: ");
+		String secondString = String.valueOf(scanner.nextLine());
+		System.out.print("Enter Third String: ");
+		String thirdString = String.valueOf(scanner.nextLine());
+		findMaximum(firstString, secondString, thirdString);
 		scanner.close();
 	}
 }
